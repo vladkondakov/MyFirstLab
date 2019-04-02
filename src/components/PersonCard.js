@@ -24,3 +24,5 @@ export class PersonCard extends HTMLElement {
     `;
   }
 }
+
+customElements.define("person-card", PersonCard);
