@@ -29,49 +29,49 @@ export class FillField extends HTMLElement {
     <div class="jumbotron">
       <div class="input-group mb-3">
         <div class="input-group-prepend">
-          <span class="input-group-text" id="inputGroup-sizing-default">Name</span>
+          <span class="input-group-text" style="width:130px" id="inputGroup-sizing-default">Name</span>
         </div>
         <input type="text" name="Name" class="form-control" aria-label="Default" aria-describedby="inputGroup-sizing-default">
       </div>
       <div class="input-group mb-3">
         <div class="input-group-prepend">
-          <span class="input-group-text" id="inputGroup-sizing-default">Nickname</span>
+          <span class="input-group-text" style="width:130px" id="inputGroup-sizing-default">Nickname</span>
         </div>
         <input type="text" name="Nickname" class="form-control" aria-label="Default" aria-describedby="inputGroup-sizing-default">
       </div>
       <div class="input-group mb-3">
         <div class="input-group-prepend">
-          <span class="input-group-text" id="inputGroup-sizing-default">Surname</span>
+          <span class="input-group-text" style="width:130px" id="inputGroup-sizing-default">Surname</span>
         </div>
         <input type="text" name="Surname" class="form-control" aria-label="Default" aria-describedby="inputGroup-sizing-default">
       </div>
       <div class="input-group mb-3">
         <div class="input-group-prepend">
-          <span class="input-group-text" id="inputGroup-sizing-default">Email</span>
+          <span class="input-group-text" style="width:130px" id="inputGroup-sizing-default">Email</span>
         </div>
         <input type="text" name="Email" class="form-control" aria-label="Default" aria-describedby="inputGroup-sizing-default">
       </div>
       <div class="input-group mb-3">
         <div class="input-group-prepend">
-          <span class="input-group-text" id="inputGroup-sizing-default">Phone number</span>
+          <span class="input-group-text" style="width:130px" id="inputGroup-sizing-default">Phone number</span>
         </div>
         <input type="text" name="Phonenumber" class="form-control" aria-label="Default" aria-describedby="inputGroup-sizing-default">
       </div>
       <div class="input-group mb-3">
         <div class="input-group-prepend">
-          <span class="input-group-text" id="inputGroup-sizing-default">Course</span>
+          <span class="input-group-text" style="width:130px" id="inputGroup-sizing-default">Course</span>
         </div>
         <input type="text" name="Course" class="form-control" aria-label="Default" aria-describedby="inputGroup-sizing-default">
       </div>
       <div class="input-group mb-3">
         <div class="input-group-prepend">
-          <span class="input-group-text" id="inputGroup-sizing-default">About you</span>
+          <span class="input-group-text" style="width:130px" id="inputGroup-sizing-default">About you</span>
         </div>
         <input type="text" name="About" class="form-control" aria-label="Default" aria-describedby="inputGroup-sizing-default">
       </div>
     </div>
     <p />
-    <button type="submit" class="btn btn-primary btn-lg">Save</button>
+    <button type="submit" class="btn btn-secondary btn-lg btn-block">Save</button>
     `;
   }
 }
