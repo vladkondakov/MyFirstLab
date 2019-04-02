@@ -13,11 +13,29 @@ export class InformationView extends HTMLElement {
     return ["isOpen"];
   }
 
+  getLocalStorageData() {
+    const info = localStorage.getItem("my-person-card");
+    const infoData = info
+      ? JSON.parse(info)
+      : {
+          Name: "",
+          Nickname: "",
+          Email: "",
+          Phonenumber: "",
+          Course: "",
+          About: ""
+        };
+    return infoData;
+  }
+
   render() {
-    var info = localStorage.getItem("my-person-card");
+    const info = this.getLocalStorageData();
     this.innerHTML = `
       <div class="card">
-        <h1>${info.Name}</h1>
+        <div class="card-body">
+          <h5 class="card-title">${info.Name} ${info.Surname}</h5>
+          <h6 class="card-subtitle mb-2 text-muted">${info.Nickname}</h6>
+        </div>    
       </div>
     `;
   }
