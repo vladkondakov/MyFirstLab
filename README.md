@@ -1,2 +1,0 @@
-# MyFirstLab
-Created with CodeSandbox
